@@ -1,0 +1,23 @@
+@model CertificateVerificationSystemJeyaram.ViewModels.UploadCertificateViewModel
+
+@{
+    ViewData["Title"] = "Upload Certificate";
+}
+
+<h2>Upload Certificate</h2>
+<form asp-action="UploadCertificate" method="post" enctype="multipart/form-data">
+    <input asp-for="StudentId" type="hidden" />
+    <div class="mb-3">
+        <label asp-for="Title" class="form-label"></label>
+        <input asp-for="Title" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="IssuedOn" class="form-label"></label>
+        <input asp-for="IssuedOn" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="File" class="form-label"></label>
+        <input asp-for="File" class="form-control" type="file" />
+    </div>
+    <button type="submit" class="btn btn-primary">Upload</button>
+</form>

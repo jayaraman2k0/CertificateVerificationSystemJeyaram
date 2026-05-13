@@ -1,0 +1,30 @@
+@model CertificateVerificationSystemJeyaram.Models.StudentRecord
+
+@{
+    ViewData["Title"] = "Create Student";
+}
+
+<h2>Create Student</h2>
+<form asp-action="CreateStudent" method="post">
+    <div class="mb-3">
+        <label asp-for="FirstName" class="form-label"></label>
+        <input asp-for="FirstName" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="LastName" class="form-label"></label>
+        <input asp-for="LastName" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label"></label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="EnrollmentNumber" class="form-label"></label>
+        <input asp-for="EnrollmentNumber" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Program" class="form-label"></label>
+        <input asp-for="Program" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>

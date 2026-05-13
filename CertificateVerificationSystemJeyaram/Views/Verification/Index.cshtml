@@ -1,0 +1,12 @@
+@{
+    ViewData["Title"] = "Certificate Verification";
+}
+
+<h2>Verify Certificate</h2>
+<form asp-action="Verify" method="post">
+    <div class="mb-3">
+        <label for="certificateId" class="form-label">Certificate ID</label>
+        <input id="certificateId" name="certificateId" class="form-control" />
+    </div>
+    <button class="btn btn-primary" type="submit">Verify</button>
+</form>
