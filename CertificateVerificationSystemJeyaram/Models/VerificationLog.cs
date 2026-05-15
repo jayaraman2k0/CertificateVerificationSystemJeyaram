@@ -1,4 +1,4 @@
-namespace CertificateVerificationSystemJeyaram.Models
+namespace CertificateVerificationSystemJayaram.Models
 {
     public class VerificationLog
     {

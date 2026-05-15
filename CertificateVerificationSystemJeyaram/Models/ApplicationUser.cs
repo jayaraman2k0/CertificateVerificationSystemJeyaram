@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 
-namespace CertificateVerificationSystemJeyaram.Models
+namespace CertificateVerificationSystemJayaram.Models
 {
     public class ApplicationUser : IdentityUser
     {

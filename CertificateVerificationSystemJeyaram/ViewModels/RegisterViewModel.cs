@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace CertificateVerificationSystemJeyaram.ViewModels
+namespace CertificateVerificationSystemJayaram.ViewModels
 {
     public class RegisterViewModel
     {

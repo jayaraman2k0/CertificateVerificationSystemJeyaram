@@ -1,10 +1,10 @@
-using CertificateVerificationSystemJeyaram.Models;
-using CertificateVerificationSystemJeyaram.ViewModels;
+using CertificateVerificationSystemJayaram.Models;
+using CertificateVerificationSystemJayaram.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CertificateVerificationSystemJeyaram.Controllers
+namespace CertificateVerificationSystemJayaram.Controllers
 {
     public class AccountController : Controller
     {
