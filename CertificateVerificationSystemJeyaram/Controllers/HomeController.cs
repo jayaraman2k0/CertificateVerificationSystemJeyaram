@@ -1,8 +1,8 @@
-using CertificateVerificationSystemJayaram.Models;
+using CertificateVerificationSystemJeyaram.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace CertificateVerificationSystemJayaram.Controllers
+namespace CertificateVerificationSystemJeyaram.Controllers
 {
     public class HomeController : Controller
     {

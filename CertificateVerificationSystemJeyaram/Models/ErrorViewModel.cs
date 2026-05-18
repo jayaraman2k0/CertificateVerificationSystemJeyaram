@@ -1,4 +1,4 @@
-namespace CertificateVerificationSystemJayaram.Models
+namespace CertificateVerificationSystemJeyaram.Models
 {
     public class ErrorViewModel
     {

@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Http;
 using System.ComponentModel.DataAnnotations;
 
-namespace CertificateVerificationSystemJayaram.ViewModels
+namespace CertificateVerificationSystemJeyaram.ViewModels
 {
     public class UploadCertificateViewModel
     {

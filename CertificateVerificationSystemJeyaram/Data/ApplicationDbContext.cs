@@ -1,4 +1,4 @@
-using CertificateVerificationSystemJayaram.Models;
+using CertificateVerificationSystemJeyaram.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 

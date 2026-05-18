@@ -1,4 +1,4 @@
-namespace CertificateVerificationSystemJayaram.ViewModels
+namespace CertificateVerificationSystemJeyaram.ViewModels
 {
     public class AdminDashboardViewModel
     {

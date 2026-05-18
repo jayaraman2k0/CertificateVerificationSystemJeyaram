@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace CertificateVerificationSystemJayaram.Migrations
+namespace CertificateVerificationSystemJeyaram.Migrations
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration

@@ -3,11 +3,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using CertificateVerificationSystemJayaram.Models;
+using CertificateVerificationSystemJeyaram.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
-namespace CertificateVerificationSystemJayaram.Data
+namespace CertificateVerificationSystemJeyaram.Data
 {
     public static class DbInitializer
     {
