@@ -1,5 +1,6 @@
 using CertificateVerificationSystemJeyaram.Data;
 using CertificateVerificationSystemJeyaram.Models;
+using CertificateVerificationSystemJeyaram.Models.SmartCertificateSystem;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -63,4 +64,31 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
+FileManager fm = new FileManager();
+
+fm.CreateDirectory();
+
+fm.SaveCertificate(
+    "John",
+    "Certificate ID: 1001\nAward: Diploma in IT"
+);
+
+fm.ReadCertificate("John");
+
+Console.WriteLine("\nSearch Student");
+
+string searchName = "John";
+
+var foundStudent = student
+    .FirstOrDefault(s => s.Name == searchName);
+
+if (foundStudent != null)
+{
+    Console.WriteLine("Found: " + foundStudent.Name);
+}
+else
+{
+    Console.WriteLine("Student Not Found");
+}
 
